@@ -1,4 +1,5 @@
 import "../styles/Rating.css";
+import { Score } from "./Score";
 
 export function Rating() {
   return (
@@ -11,7 +12,8 @@ export function Rating() {
           is appreciated to help us improve our offering!
         </p>
       </div>
-      1 2 3 4 5<button class="submit">Submit</button>
+      <Score/>
+      <button class="submit">SUBMIT</button>
     </div>
   );
 }

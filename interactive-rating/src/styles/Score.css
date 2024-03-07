@@ -1,0 +1,28 @@
+.score-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 2%;
+}
+
+.score-container button {
+  border: none;
+  border-radius: 80px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(216, 12%, 54%);
+  cursor: pointer;
+  width: 3.5em;
+  height: 3.5em;
+  margin: 3%;
+}
+
+.score-container button.active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.score-container button:not(.active):hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}

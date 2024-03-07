@@ -1,23 +1,19 @@
-.color{
-color:hsl(0, 0%, 100%)
-hsl(217, 12%, 63%)
-hsl(216, 12%, 54%)
-hsl(213, 19%, 18%)
- hsl(216, 12%, 8%)
+.color {
+  color: hsl(0, 0%, 100%) hsl(217, 12%, 63%) hsl(216, 12%, 54%)
+    hsl(213, 19%, 18%) hsl(216, 12%, 8%);
 }
-
 
 .rating-conteiner {
   padding: 10%;
   border-radius: 10px;
-  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  background: linear-gradient(130deg, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
   width: 100%;
   height: 100%;
   display: flex;
   align-items: start;
   flex-direction: column;
-  justify-content: space-evenly;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .star {
@@ -26,8 +22,20 @@ hsl(213, 19%, 18%)
   padding: 4%;
 }
 
-.main-text{
-    color: hsl(216, 12%, 54%);
-    text-align: left;
-    line-height: 1.3em; 
+.main-text {
+  color: hsl(216, 12%, 54%);
+  text-align: left;
+  line-height: 1.3em;
+}
+
+.submit {
+     letter-spacing: 1px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    padding: 3%;
+    margin: 2%;
 }
