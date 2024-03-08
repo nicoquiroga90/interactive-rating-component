@@ -1,22 +1,17 @@
-import{ useState } from 'react';
 import '../styles/Score.css'; 
 
-export function Score(){{
-  const [selectedScore, setSelectedScore] = useState(false);
+export function Score({ score, handleScoreClick }){{
 
-  const handleScoreClick = (score) => {
-    setSelectedScore(score);
-  };
 
   return (
     <div className="score-container">
-      {[1, 2, 3, 4, 5].map((score) => (
+      {[1, 2, 3, 4, 5].map((e) => (
         <button
-          key={score}
-          className={selectedScore === score ? 'active' : 'inactive'}
-          onClick={() => handleScoreClick(score)}
+          key={e}
+          className={score === e ? 'active' : 'inactive'}
+          onClick={() => handleScoreClick(e)}
         >
-          {score}
+          {e}
         </button>
       ))}
     </div>
