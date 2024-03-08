@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 function App() {
 
-   const [score, setScore] = useState(false);
+  const [score, setScore] = useState(false);
 
   const handleScoreClick = (score) => {
     setScore(score);
