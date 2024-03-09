@@ -1,12 +1,11 @@
 .rating-conteiner {
-  padding: 10%;
-  border-radius: 10px;
+  padding: 6%;
+  border-radius: 25px;
   background: linear-gradient(130deg, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
-  width: 100%;
-  height: 100%;
+  height: 24em;
+  width: 25em;
   display: flex;
   align-items: start;
-  flex-direction: column;
   position: relative;
   flex-wrap: wrap;
 }
@@ -24,20 +23,20 @@
 }
 
 .submit {
-  letter-spacing: 1px;
-  font-weight: 600;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(25, 97%, 53%);
-  width: 100%;
-  border-radius: 25px;
-  border: none;
-  padding: 3%;
-  margin: 2%;
-  text-align: center;
-  text-decoration: none; 
+     letter-spacing: 1px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    width: 50%;
+    border-radius: 25px;
+    border: none;
+    padding: 3%;
+    margin: 2% 23%;
+    text-align: center;
+    text-decoration: none;
 }
 
 .submit:hover {
   color: hsl(25, 97%, 53%);
-  background-color:  hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
 }
