@@ -13,3 +13,11 @@ The challenge is to build out this interactive rating component and get it looki
 
 Deployeed solution : [Link](https://dashboard.render.com/web/srv-cnlmgugl5elc73ca50cg/deploys/dep-cnm2pr6d3nmc73aqssb0)
 
+##
+
+![Main](./public/design/interactive-rating-component-main.png)
+
+##
+
+![Thanks](./public/design/interactive-rating-component-thanks.png)
+
