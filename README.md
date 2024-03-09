@@ -11,7 +11,7 @@ The challenge is to build out this interactive rating component and get it looki
 
 # My solution
 
-Deployeed solution : [Link](https://interactive-rating-component-h8v1.onrender.com)
+Deployed solution: [Link](https://interactive-rating-component-h8v1.onrender.com)
 
 ##
 
